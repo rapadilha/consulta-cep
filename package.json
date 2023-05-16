@@ -1,0 +1,21 @@
+{
+  "name": "consulta-cep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "dev": "vite --open ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0"
+  }
+}

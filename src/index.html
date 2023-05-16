@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script.js" type="module"></script>
+  <link rel="stylesheet" href="/dist/output.css">
+  <title>Consulta CEP</title>
+</head>
+<body class="bg-black text-white flex grid justify-center"> 
+  <header class="flex flex-col grid justify-center">
+    <h1 class="mt-10 mb-5 text-4xl font-mono font-bold" id="title">Consulta CEP</h1>
+  </header>
+  <main class="flex flex-col grid justify-center bg-gray-700 py-10 px-15 border-2 border-gray-400 w-96 rounded">
+    <p class="font-bold mb-2">Digite seu CEP:</p>
+    <div class="flex">
+      <input class="h-8 rounded text-black mr-1 " id="input-value" type="text">
+      <button class="border-2 border-green-500 text-center text-gray-900 text-xs h-8 py-2 px-2 rounded bg-green-600 font-mono font-bold hover hover:bg-gray-500" id="search-button">Consultar CEP</button>
+    </div>
+    <h2 class="mt-5 text-2xl" id="second-title">Dados:</h2>
+    <p class="font-bold bg-gray-600 py-5 px-5" id="info"></p>
+  </main>
+</body>
+</html>
